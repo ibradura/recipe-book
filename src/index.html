@@ -4,11 +4,23 @@
   <meta charset="utf-8">
   <title>RecipeBook</title>
   <base href="/">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
   <rb-root>Loading...</rb-root>
+  <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCtJvQ4_T3KlK8oECkI2955u-nAvj9zwL4",
+    authDomain: "recipebook-cdf9f.firebaseapp.com",
+    databaseURL: "https://recipebook-cdf9f.firebaseio.com",
+    storageBucket: "recipebook-cdf9f.appspot.com",
+    messagingSenderId: "254046714777"
+  };
+  firebase.initializeApp(config);
+</script>
 </body>
 </html>
